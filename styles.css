@@ -13,7 +13,7 @@ body {
 header {
   height: 60vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./hero-dev-compressed.jpg);
+    url(./img/hero-dev-compressed.jpg);
   position: relative;
 }
 
@@ -26,7 +26,7 @@ header {
 }
 
 .hero-heading {
-  color: #fff;
+  color: #eee;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -42,4 +42,17 @@ header {
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 8px;
+}
+
+.about-section {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.about-img img {
+  width: 600px;
+}
+
+.about-text {
+  padding: 2.4rem;
 }
