@@ -15,6 +15,8 @@ body {
   color: #343a40;
 }
 
+/* Hero Section */
+
 header {
   height: 60vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -49,6 +51,8 @@ header {
   border-radius: 8px;
 }
 
+/* About Section */
+
 .about-section {
   display: flex;
 }
@@ -71,4 +75,40 @@ header {
   color: #555;
   padding-top: 2.4rem;
   line-height: 1.4;
+}
+
+/* Project Section */
+
+.projects-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8.4rem;
+  padding: 9.6rem;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ddd;
+  border-radius: 11px;
+  padding: 2.4rem;
+}
+
+.project-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-heading {
+  color: #444;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.project-text {
+  font-size: 1.6rem;
+  color: #555;
 }
