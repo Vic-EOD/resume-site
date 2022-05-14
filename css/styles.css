@@ -20,7 +20,7 @@ body {
 header {
   height: 60vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/hero-dev-compressed.jpg);
+    url(../img/hero-dev-compressed.jpg);
   position: relative;
 }
 
